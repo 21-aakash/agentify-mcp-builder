@@ -1,0 +1,8 @@
+services:
+  - name: petstore
+    url: https://petstore3.swagger.io/api/v3/openapi.json
+  # Uncomment and set your real service:
+  # - name: order-service
+  #   url: http://your-service:8080/v3/api-docs
+  # - name: order-service
+  #   file: ./specs/order-service.json

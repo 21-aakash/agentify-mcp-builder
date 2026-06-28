@@ -1,0 +1,43 @@
+{
+  "name": "agentify",
+  "version": "0.1.0",
+  "description": "Turn any microservice into an MCP tool. Point at /v3/api-docs, get a runnable MCP server — no code changes required.",
+  "type": "module",
+  "bin": {
+    "agentify": "./dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "services.example.yaml"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.0.0",
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.4.0"
+  },
+  "keywords": [
+    "mcp",
+    "openapi",
+    "microservices",
+    "ai-tools",
+    "claude",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
