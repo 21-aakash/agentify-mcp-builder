@@ -6,7 +6,7 @@ Agentify is a CLI tool that reads your service's OpenAPI spec (`/v3/api-docs`, `
 
 Built for engineers who want to connect AI agents (Claude, Cursor, custom LLM apps) directly to their backend APIs — in under a minute.
 
-![Agentify CLI Preview](https://raw.githubusercontent.com/skyaque/agentify/main/preview.png)
+![Agentify CLI Preview](https://raw.githubusercontent.com/21-aakash/agentify-mcp-builder/main/preview.png)
 
 ---
 
